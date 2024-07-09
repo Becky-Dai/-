@@ -16,7 +16,7 @@ use the createKG.py file to import the data to neo4j
 
 # Part 3：visualize the data 数据可视化
 
-set the configutation of the Django frame 设置好Django框架
+set the configutation of the Django frame  记得设置好Django框架
 
 design the front-end webite 前端设计
 
@@ -26,20 +26,26 @@ design the front-end webite 前端设计
 
 ![image](https://github.com/Becky-Dai/Flower-Knowledge-Graph-Visualization/assets/58799631/cbd53438-16df-44cd-863a-8aa5b46bf569)
 
-complete the query function and visualize the retun data 完成查询功能和可视化返回的数据
+complete the query function and visualize the retun data 
+完成查询功能和可视化返回的数据
 
-Enter the name of the entity node in the search box and click Search. 在搜索框输入实体节点的名称，点击搜索
+Enter the name of the entity node in the search box and click Search. 
+在搜索框输入实体节点的名称，点击搜索
 
-The backend search code can be found in my Django_web/query_function path! 后端的搜索代码可以在我的Django_web/query_function路径下可以找到！
+The backend search code can be found in my Django_web/query_function path! 
+后端的搜索代码可以在我的Django_web/query_function路径下可以找到！
 
 ![image](https://github.com/Becky-Dai/Flower-Knowledge-Graph-Visualization/assets/58799631/7e2097a9-25a4-4545-9494-065b97f4ce4f)
 
-The front-end will return the knowledge graph rendered by echats.js, and these settings are available in my Django_web/templates path. 前端将会返回echats.js渲染的知识图谱，而这些设置均在我的Django_web/templates路径下可以找到
+The front-end will return the knowledge graph rendered by echats.js, and these settings are available in my Django_web/templates path. 
+前端将会返回echats.js渲染的知识图谱，而这些设置均在我的Django_web/templates路径下可以找到
 
 ![image](https://github.com/Becky-Dai/Flower-Knowledge-Graph-Visualization/assets/58799631/d63b8f4d-df52-4573-b76f-ad8eda9bf0e1)
 
 
+
 ![image](https://github.com/Becky-Dai/Flower-Knowledge-Graph-Visualization/assets/58799631/32f96024-8d67-47fc-88c9-8bfd46467780)
+
 
 ![image](https://github.com/Becky-Dai/Flower-Knowledge-Graph-Visualization/assets/58799631/a0744a35-4943-4db4-98d9-0fd756f98242)
 
