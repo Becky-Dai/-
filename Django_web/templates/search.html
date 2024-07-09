@@ -1,0 +1,365 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title> 花卉知识图谱 </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="/static/assets/img/favicon.ico">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="/static/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/static/assets/css/slicknav.css">
+    <link rel="stylesheet" href="/static/assets/css/animate.min.css">
+    <link rel="stylesheet" href="/static/assets/css/hamburgers.min.css">
+    <link rel="stylesheet" href="/static/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="/static/assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/static/assets/css/themify-icons.css">
+    <link rel="stylesheet" href="/static/assets/css/themify-icons.css">
+    <link rel="stylesheet" href="/static/assets/css/slick.css">
+    <link rel="stylesheet" href="/static/assets/css/nice-select.css">
+    <link rel="stylesheet" href="/static/assets/css/style.css">
+    <link rel="stylesheet" href="/static/assets/css/responsive.css">
+</head>
+<body>
+<!--? Preloader Start -->
+<div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+            <div class="preloader-circle"></div>
+            <div class="preloader-img pere-text">
+                <img src="/static/assets/img/logo/loder.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Preloader Start -->
+<header>
+    <!-- Header Start -->
+    <div class="header-area">
+        <div class="main-header ">
+            <div class="header-bottom  header-sticky">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <!-- Logo -->
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo">
+                                <a href="/"><img src="/static/assets/img/logo/logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10">
+                            <div class="menu-wrapper  d-flex align-items-center justify-content-end">
+                                <!-- Main-menu -->
+                                <div class="main-menu d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="/">Home</a></li>
+                                            <li><a href="/search">search</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+</header>
+<main>
+    <!--? slider Area Start-->
+    <section class="slider-area slider-area4  hero-overly">
+        <div class="slider-height2 d-flex align-items-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-11 col-md-12">
+                        <div class="hero__caption hero__caption2 text-center">
+                            <h1 data-animation="bounceIn" data-delay="0.2s">Knowledge Graph</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+    <!-- ? services-area start-->
+    <section class="blog_area section-padding">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <div class="blog_right_sidebar">
+
+                            <form action="/search" method="get">
+                                <div class="form-group">
+                                    <div class="input-group mb-3">
+                                        <input type="text" name="start" class="form-control" value="{{ start }}"
+                                               placeholder='Search Keyword'
+                                               onfocus="this.placeholder = ''"
+                                               onblur="this.placeholder = 'Search Keyword'">
+                                        <input type="hidden" name="legal_type" value="{{ legal_type }}">
+                                        <div class="input-group-append">
+                                            <button class="btns" type="submit"><i class="ti-search"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+                            <div id="main" style="height: 400px"></div>
+
+                        </aside>
+
+
+                        <aside class="single_sidebar_widget instagram_feeds">
+                            <img  width="" height="" id="pic"/></div>
+                            <div id="showtext"></div>
+
+
+                        </aside>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Area End -->
+</main>
+
+<!-- Scroll Up -->
+<div id="back-top">
+    <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+</div>
+<!-- JS here -->
+
+<script src="/static/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<!-- Jquery, Popper, Bootstrap -->
+<script src="/static/assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="/static/assets/js/popper.min.js"></script>
+<script src="/static/assets/js/bootstrap.min.js"></script>
+<!-- Jquery Mobile Menu -->
+<script src="/static/assets/js/jquery.slicknav.min.js"></script>
+
+<!-- Jquery Slick , Owl-Carousel Plugins -->
+<script src="/static/assets/js/owl.carousel.min.js"></script>
+<script src="/static/assets/js/slick.min.js"></script>
+<!-- One Page, Animated-HeadLin -->
+<script src="/static/assets/js/wow.min.js"></script>
+<script src="/static/assets/js/animated.headline.js"></script>
+<script src="/static/assets/js/jquery.magnific-popup.js"></script>
+
+<!-- Date Picker -->
+<script src="/static/assets/js/gijgo.min.js"></script>
+<!-- Nice-select, sticky -->
+<script src="/static/assets/js/jquery.nice-select.min.js"></script>
+<script src="/static/assets/js/jquery.sticky.js"></script>
+
+<!-- counter , waypoint,Hover Direction -->
+<script src="/static/assets/js/jquery.counterup.min.js"></script>
+<script src="/static/assets/js/waypoints.min.js"></script>
+<script src="/static/assets/js/jquery.countdown.min.js"></script>
+<script src="/static/assets/js/hover-direction-snake.min.js"></script>
+
+<!-- contact js -->
+<script src="/static/assets/js/contact.js"></script>
+<script src="/static/assets/js/jquery.form.js"></script>
+<script src="/static/assets/js/jquery.validate.min.js"></script>
+<script src="/static/assets/js/mail-script.js"></script>
+<script src="/static/assets/js/jquery.ajaxchimp.min.js"></script>
+
+<!-- Jquery Plugins, main Jquery -->
+<script src="/static/assets/js/plugins.js"></script>
+<script src="/static/assets/js/main.js"></script>
+
+<script src="/static/jquery-1.10.2.min.js"></script>
+<script src="/static/echarts.min.js"></script>
+<script type="text/javascript">
+    var myChart = echarts.init(document.getElementById('main'));
+
+    option1 = {
+        // backgroundColor: "white",
+        title: {
+            text: '关系图谱',
+            textStyle: {
+                // color: "white",
+                fontWeight: "lighter",
+            }
+        },
+        animationDurationUpdate: 1500,
+        animationEasingUpdate: 'quinticInOut',
+        legend: {
+            x: "center",
+            show: true,
+            data: {{ legend_data | safe }}
+        },
+        series: [
+            {
+                type: 'graph',
+                layout: 'force',
+                symbolSize: 50,
+                edgeSymbol: ['circle', 'arrow'],
+                edgeSymbolSize: [4, 4],
+                edgeLabel: {
+                    normal: {
+                        show: true,
+                        formatter: function (x) {
+                            return x.data.name;
+                        },
+                        textStyle: {
+                            fontSize: 10
+                        },
+                    }
+                },
+                force: {
+                    repulsion: 2500,
+                    edgeLength: [10, 100]
+                },
+                focusNodeAdjacency: true,
+                draggable: true,
+                roam: true,
+                categories: {{ categories | safe }},
+                label: {
+                    normal: {
+                        show: true,
+                        textStyle: {
+                            fontSize: 10
+                        },
+                    }
+                },
+                force: {
+                    repulsion: 1000
+                },
+                tooltip: {
+                    formatter: function (node) { // 区分连线和节点，节点上额外显示其他数字
+                        if (!node.value) {
+                            return node.data.name;
+                        } else {
+                            return node.data.name + ":" + node.data.showNum;
+                        }
+                    },
+                },
+                lineStyle: {
+                    normal: {
+                        opacity: 0.9,
+                        width: 1,
+                        curveness: 0.3
+                    }
+                },
+                // progressiveThreshold: 700,
+                nodes: {{ datas | safe }},
+                links: {{ links | safe }},
+
+            }
+        ]
+    };
+
+
+    option = {
+        title: {text: '关系图谱'},
+        tooltip: {
+            formatter: function (x) {
+                return x.data.des;
+            }
+        },
+        legend: {
+            x: "center",
+            show: true,
+            data: {{ legend_data | safe }}
+        },
+        series: [
+            {
+                type: 'graph',
+                layout: 'force',
+                symbolSize: 80,
+                roam: true,
+                edgeSymbol: ['circle', 'arrow'],
+                edgeSymbolSize: [4, 10],
+                edgeLabel: {
+                    normal: {
+                        textStyle: {
+                            fontSize: 20
+                        }
+                    }
+                },
+                categories: {{ categories | safe }},
+                force: {
+                    repulsion: 2500,
+                    edgeLength: [10, 50]
+                },
+                draggable: true,
+                itemStyle: {
+                    normal: {
+                        color: function (params) {
+                            return params.data.color    //获取具体的参数
+                        },
+                    }
+                },
+                lineStyle: {
+                    normal: {
+                        width: 2,
+                        color: '#4b565b'
+
+                    }
+                },
+                edgeLabel: {
+                    normal: {
+                        show: true,
+                        formatter: function (x) {
+                            return x.data.name;
+                        }
+                    }
+                },
+                label: {
+                    normal: {
+                        show: true,
+                        textStyle: {}
+                    }
+                },
+                data:{{ datas | safe}},
+                links:{{ links | safe}}
+            }
+        ]
+    };
+    myChart.setOption(option1);
+    {#var ecConfig = require('echarts/config');#}
+
+    myChart.on('click', function (params) {
+        console.log("0000--")
+        console.log(params)
+        console.log(params["data"])
+        console.log(params["dataType"])
+        var addr;
+        if (params["dataType"] == 'node') {
+            var textshow = ""
+            for (var key in params["data"]["attr"]) {
+                if (key == "name") {
+                    continue
+                } else {
+                    textshow = textshow + "<p><h4>" + key + ":</h4>" + params["data"]["attr"][key] + "</p>"
+                }
+            }
+            addr = params["data"]["attr"]["图片"]
+            /*     console.log(textshow) */
+            /*    console.log(params["data"]["图片"])*/
+            $('#showtext').children().remove()
+            $("#pic").attr("src", addr)
+
+            $('#showtext').append("<h2><span>详情:</span>" + "</h2>"+ params["data"]["attr"]["name"] + "</h2>" + "<div style='text-align: left'>" + textshow + "</div>")
+
+
+
+
+          /*  $('#showtext').append(<h2><span>信息:</span>+addr)*/
+        }
+    });
+
+</script>
+  <img id = "pic" alt='' style = 'height:100%;width:100%'>
+</body>
+</html>
