@@ -17,6 +17,7 @@ use the createKG.py file to import the data to neo4j
 set the configutation of the Django frame
 
 design the front-end webite
+![image](https://github.com/Becky-Dai/Flower-Knowledge-Graph-Visualization/assets/58799631/a404331a-afcc-4bf6-94f2-36bc7e33abc0)
 
 complete the query function 
 
