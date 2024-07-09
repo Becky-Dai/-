@@ -10,4 +10,15 @@ Step 2: Run crawler.py to crawl the URL "http://www.aihuhua.com/hua/". The crawl
 
 # Part 2：create the knowledge graph
 
+use the createKG.py file to import the data to neo4j
+
 # Part 3：visualize the data
+
+set the configutation of the Django frame
+
+design the front-end webite
+
+complete the query function 
+
+visualize the retun data
+
