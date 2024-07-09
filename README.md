@@ -55,6 +55,8 @@ Regarding the interaction design of the page: I've set it so that after clicking
 
 ![image](https://github.com/Becky-Dai/Flower-Knowledge-Graph-Visualization/assets/58799631/a0744a35-4943-4db4-98d9-0fd756f98242)
 
+The most important code about this project has been shown in the appropriate folder, while the rest of the part about Django setup has been omitted, and the project can be basically restored based on these main codes. If you want to get the full code please contact: beckydai2023@foxmail.com
 
 
+关于这个项目的最主要的代码已经在相应的文件夹下进行了展示，而其余的关于Django的设置部分就省略了，根据这些主要代码基本上可以还原这个项目。如果想获取全部的代码请联系：beckydai2023@foxmail.com
 
